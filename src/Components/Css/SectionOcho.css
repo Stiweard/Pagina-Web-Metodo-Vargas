@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap');
+
+
+.sectionUno {
+    background: url(edv.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo{
+    ont-family: 'Noto Serif Display', serif;
+    font-style:italic;
+}
+
+.contenidoSectionUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+.divContenedorContenidoSectionUno h1 {
+    font-size: 5em;
+}
+
+.divContenedorContenidoSectionUno p {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.divContenedorContenidoSectionUno {
+    text-align: center;
+    color: #dcdcdc;
+    padding: 25px;
+}
+
+/* section dos */
+
+.divDosContenedorImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.imgContenDos img{
+    width: 400px;
+}
+
+.imgContenDos{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionDos{
+    background: url(../Image/Fondo-website.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+.divContenedorRelleno{
+    font-size: 2.5em;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #66a7dc;
+}
+
+.imgContenDos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    padding: 5px;
+    color: #fff;
+}
+.contenedorContenedifoTres p{
+    max-width: 800px;
+}
+
+.divContenedorP p{
+    text-align: center;
+}
+.divContenedorP{
+    color:#f50b0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.divContenedorIMgCoontenDos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.divContenedidos p{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.divContenedidos h3{
+    font-size: 1.5em;
+}
+.divContenedidos{
+    color: #fff;
+    max-width: 700px;
+    line-height: 25px;
+}
+.descripciondos, .divPDosfinal{
+    padding: 10px ; 
+}
+
+.contenidoImgflexTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* secrtion 3 */
+
+.contenedorContenedifoTres h2{
+    font-size: 5em;
+    color: #fff;
+    background: #68a7db;
+    padding: 10px 15px;
+
+}
+.contenedorContenedifoTres p{
+    font-size: 1.2em;
+    color: #fff;
+    color: #66a7dc;
+    padding: 10px 15px;
+    font-weight: 100;
+
+}
+
+.divContendiDescripcionTres{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0;
+}
+.divContendiDescripcionTres1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.contenedorSectionTres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.divContendiDescripcionTresImg img{
+    width: 80px;
+}
+
+.divContendiDescripcionTresImg{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.contendoflextres{
+    display: flex;
+    justify-content: center;
+}
+
+.divTresImg video{
+    position: absolute;
+    width: 238px;
+    height: 509px;
+    margin: 21px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.divTresImg{
+    display: flex;
+    justify-content: center;
+}

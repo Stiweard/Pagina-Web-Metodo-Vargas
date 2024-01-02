@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap');
+
+.sectionDosUno{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.Titulo{
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+}
+
+.divImgDelospacDos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+.dicimgDso1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dicimgDso1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.dicimgDso img {
+    width: 230px;
+    height: 402px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.imgContenedorSectionDos h2 {
+    font-size: 3em;
+}
+
+.imgContenedorSectionDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    color: #66a7dc;
+}
+
+.cotedertidfedecuadaroican img {
+    width: 100px;
+}
+
+.divflexcuatrosdedescricion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.cotedertidfedecuadaroican {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dicvontendordosdedescriopnp {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 400;
+    color: #66a7dc;
+}
+
+.contendoirDesP {
+    padding: 15px;
+    color: #66a7dc;
+    text-align: center;
+}
+
+.dicvontendordosdedescriopnp p{
+    max-width: 900px;
+}
+.cotedertidfedecuadaroican p{
+    max-width: 300px;
+}
+.Carrusel{
+    display: none !important;
+    }
+@media (max-width: 940px) {
+
+    .divImgDelospacDos {
+    display: none !important;
+    }
+    .Carrusel{
+        display: block !important;
+        }
+    }
+
+

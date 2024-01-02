@@ -1,0 +1,133 @@
+/* #app {
+    height: 100%;
+}
+
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+
+.Dic{
+    position: relative;
+    width: 80%;
+}
+
+.swiper {
+    width: auto;
+    height: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    object-fit: cover;
+    max-width: 400px;
+    left: 0;
+    margin: auto;
+}
+.ImgPaciente::before{
+    content: ' ';
+    background: #fff;
+    padding: 50px;
+    position: absolute;
+}
+.DivDelcarrusel{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    background: #0000;
+    height: 95%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.DivDelcarrusel:hover{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background: linear-gradient(1deg, rgb(102, 167, 220) 10%, rgba(0, 0, 0, 0) 100%);
+    height: 95%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.PDic{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.PDic:hover{
+    opacity: 1;
+    transition: all .5s;
+}
+
+
+
+@media (max-width: 460px) {
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    object-fit: cover;
+    max-width: 400px;
+    left: 0;
+    margin: auto;
+}
+.DivDelcarrusel {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    background: #0000;
+    height: 95%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.DivDelcarrusel:hover {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    width: 125%;
+    background: linear-gradient(1deg, rgb(102, 167, 220) 10%, rgba(0, 0, 0, 0) 100%);
+    height: 95%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+}
+@media (max-width: 1050px) {
+    .Dic{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,22 @@
+#form{
+    position: absolute;
+    margin-top: 79px;
+    padding: 15px;
+    background: #151515;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 16px;
+    gap: 10px;
+    color: #fff;
+}
+input{
+    border: none;
+    outline: none;
+}
+.formDivs{
+    display: flex;
+    gap: 15px;
+}

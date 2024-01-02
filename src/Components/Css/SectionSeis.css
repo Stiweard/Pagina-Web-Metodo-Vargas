@@ -1,0 +1,106 @@
+.imgGabo {
+    width: 200px !important;
+    border-radius: 50% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    object-position: top !important;
+    cursor: pointer !important;
+}
+
+
+.contenedorCuatroTitulo {
+    font-size: 4em;
+    padding: 15px;
+}
+
+.sectioCuatro {
+    background: url(../Image/Fondo-website.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedorCuatroTitulo h2 {
+    color: #66a7dc;
+    ;
+}
+
+.contendorImgEcquipodseDoctores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 15px;
+    max-width: 1400px;
+    gap: 10px;
+}
+
+.Pbold {
+    font-weight: 500 !important;
+}
+
+.contenedorflexCuatro {
+    display: flex;
+    justify-content: center;
+}
+
+
+.EquipoPersona:hover::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    transition: .5s;
+    background: linear-gradient(301deg, rgba(102, 167, 220, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    transition: .5s ease-in-out;
+}
+
+.EquipoPersona:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    transition: .5s;
+    background: linear-gradient(301deg, rgba(102, 167, 220, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    transition: .5s ease-in-out;
+
+}
+
+.EquipoPersona p {
+    text-align: center;
+    z-index: 1;
+    color: #ffffff00;
+    font-size: 0em;
+    font-weight: 300;
+    transition: .5s;
+    max-width: 175px;
+}
+
+.EquipoPersona:hover p {
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    font-size: 1em;
+}
+
+.EquipoPersona:hover p {
+    border-radius: 50%;
+}
+
+
+.EquipoPersona {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.EquipoPersona>div {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+
+}
